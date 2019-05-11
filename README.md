@@ -10,5 +10,6 @@
 9. Ran `serve -s build`.
    1. This is necessary because `npm start` is currently broken on Internet Explorer.
 10. Clicking on the text should print the `text-to-svg` object on the console.
-    1. Works in Chrome
-    2. Fails in Internet Explorer 11.0.9600.18837 with `access denied`.
+    1. Works in Chrome.
+    2. Works in Firefox.
+    3. Fails in Internet Explorer 11.0.9600.18837 with `access denied`.
